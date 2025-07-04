@@ -1,0 +1,172 @@
+.submit-container {
+  padding: 2rem;
+  position: relative;
+  background-color: #1e1b23;
+  min-height: 100vh;
+  color: #fff;
+  font-family: "Segoe UI", sans-serif;
+}
+
+.submit-section {
+  background: #2b2a33;
+  border-radius: 16px;
+  padding: 2rem;
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.submit-title {
+  margin-bottom: 1rem;
+  font-size: 1.4rem;
+  color: #fff;
+}
+
+.submit-textarea {
+  width: 100%;
+  min-height: 150px;
+  padding: 1rem;
+  font-size: 1rem;
+  border-radius: 10px;
+  background: #1e1e2e;
+  border: 1px solid #444;
+  color: #fff;
+  resize: vertical;
+  outline: none;
+  margin-bottom: 1.5rem;
+  box-sizing: border-box;
+}
+.submit-section > div {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+.submit-button {
+  background-color: #00b894;
+  color: white;
+  padding: 0.6rem 1.2rem;
+  font-size: 1rem;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  margin-right: 15px;
+  transition: background 0.3s;
+}
+
+.submit-button:hover {
+  background-color: #00a383;
+}
+
+.submit-frequency-list {
+  list-style: none;
+  padding-left: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.submit-frequency-item {
+  background: #1e1e2e;
+  padding: 0.5rem 1rem;
+  border-radius: 8px;
+  font-size: 0.95rem;
+  color: #ccc;
+}
+
+.submit-chart-wrapper {
+  background: #1e1e2e;
+  padding: 1rem;
+  border-radius: 12px;
+  max-width: 500px;
+  max-height: 350px;
+  margin: 0 auto;
+}
+.submit-back-button {
+  position: absolute;
+  top: 1.5rem;
+  right: 2rem;
+  padding: 0.4rem 0.9rem;
+  background-color: #00b894;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-weight: 600;
+  cursor: pointer;
+  z-index: 10;
+  transition: background 0.3s ease;
+}
+
+.submit-back-button:hover {
+  background-color: #00a183;
+}
+
+.submit-back-button {
+  position: static;
+  margin-left: -1px;
+  margin-bottom: -52px;
+  padding: 0.5rem 1rem;
+  background-color: #00b894;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-weight: 600;
+  cursor: pointer;
+  z-index: 10;
+  transition: background 0.3s ease;
+}
+
+.submit-back-button:hover {
+  background-color: #009f7c;
+}
+.clear-button {
+  background-color: #ff5c5c;
+}
+
+.clear-button:hover {
+  background-color: #e04848;
+}
+.chart-container {
+  position: relative;
+}
+
+.chart-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.chart-toggle {
+  background-color: #007bff;
+  color: #fff;
+  padding: 0.5rem 1rem;
+  font-size: 0.9rem;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.chart-toggle:hover {
+  background-color: #0062cc;
+}
+/* 🎯 Title Input Box */
+.submit-input {
+  width: 96%;
+  padding: 0.9rem;
+  font-size: 1.05rem;
+  margin-bottom: 1.2rem;
+  background-color: #1e1e2e;
+  border: 1px solid #444;
+  border-radius: 10px;
+  color: #fff;
+  outline: none;
+  transition: border 0.3s ease, box-shadow 0.3s ease;
+  box-shadow: 0 0 8px rgba(0, 184, 148, 0.1);
+}
+
+.submit-input:focus {
+  border-color: #00b894;
+  box-shadow: 0 0 12px rgba(0, 184, 148, 0.4);
+}
